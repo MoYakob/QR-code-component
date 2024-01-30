@@ -11,11 +11,14 @@
 
 body {
     background-color: var(--main-bgc);
+}
+
+main {
     display: flex;
     justify-content: center;
 }
 
-main {
+section {
     width: 22.5%;
     background-color: #fff;
     border-radius: 20px;
@@ -24,24 +27,24 @@ main {
     box-shadow: 0px 15px 35px 10px #CFD6E0;
 }
 
-main img {
+section img {
     width: 100%;
     border-radius: 10px;
 }
 
-main article {
+section article {
     text-align: center;
     font-family: var(--main-font);
     padding: 0 13px;
 }
 
-main article h1 {
+section article h1 {
     color: var(--heading-color);
     font-size: 23px;
     margin: 19px 0 16px;
 }
 
-main article p {
+section article p {
     color: var(--p-color);
     font-size: 15px;
     margin-top: 0;
@@ -53,7 +56,7 @@ main article p {
         padding: 0 20px;
     }
 
-    main {
+    section {
         width: 100%;
     }
 }
