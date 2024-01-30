@@ -35,7 +35,7 @@ section article {
     padding: 0 13px;
 }
 
-section article h3 {
+section article h1 {
     color: var(--heading-color);
     font-size: 23px;
     margin: 19px 0 16px;
